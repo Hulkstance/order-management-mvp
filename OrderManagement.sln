@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{138AC5A7-8A81-453D-A4A6-D53474B5CF9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BF4889D5-EC68-4A64-A31F-4863261774E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E806F47-79BE-455A-8837-9B4F9A63CAEA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement", "src\OrderManagement\OrderManagement.csproj", "{EB84CA3F-7395-4227-92BA-2CB874A0CBDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB84CA3F-7395-4227-92BA-2CB874A0CBDA} = {138AC5A7-8A81-453D-A4A6-D53474B5CF9A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB84CA3F-7395-4227-92BA-2CB874A0CBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB84CA3F-7395-4227-92BA-2CB874A0CBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB84CA3F-7395-4227-92BA-2CB874A0CBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB84CA3F-7395-4227-92BA-2CB874A0CBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
